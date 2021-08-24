@@ -1,0 +1,26 @@
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-item {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 200px;
+  width: 350px;
+  background: darkcyan;
+}
+.product-image {
+  width: 200px;
+  height: 70px;
+  background: green;
+  transition: 0.3s;
+}
+.product-image--focus {
+  transition: 0.3s;
+  transform: scale(1.5);
+}

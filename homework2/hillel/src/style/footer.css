@@ -1,0 +1,12 @@
+.main-footer {
+  background: grey;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.main-footer-link {
+  padding: 0 20px;
+  color: black;
+}
