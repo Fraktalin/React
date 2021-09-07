@@ -1,0 +1,26 @@
+.block {
+  background: #ccc;
+  margin: 5px;
+  border-radius: 4px;
+  width: 300px;
+  padding: 8px;
+}
+.block-title {
+  text-align: center;
+}
+.block-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.button-wrap {
+  margin-top: 20px;
+  display: flex;
+}
+button {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  border-radius: 4px;
+  background: white;
+  color: black;
+  display: block;
+}
